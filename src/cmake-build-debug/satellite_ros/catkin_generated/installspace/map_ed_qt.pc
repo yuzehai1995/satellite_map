@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: map_ed_qt
+Description: Description of map_ed_qt
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: 

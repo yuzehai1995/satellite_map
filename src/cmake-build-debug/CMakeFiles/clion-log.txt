@@ -1,0 +1,87 @@
+/home/fish/下载/clion-2018.1.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/fish/0my_catkin/ws_satellite/src
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/fish/0my_catkin/ws_satellite/src/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/fish/0my_catkin/ws_satellite/src/cmake-build-debug/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- BUILD_SHARED_LIBS is on
+WARNING: Package name "GpsImu7661" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 2 packages in topological order:
+-- ~~  - GpsImu7661
+-- ~~  - map_ed_qt
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'GpsImu7661'
+-- ==> add_subdirectory(GpsImu7661)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- GpsImu7661: 2 messages, 0 services
+WARNING: Package name "GpsImu7661" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- +++ processing catkin package: 'map_ed_qt'
+-- ==> add_subdirectory(satellite_ros)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libGL.so   
+-- Configuring done
+CMake Warning (dev) in satellite_ros/CMakeLists.txt:
+  Policy CMP0071 is not set: Let AUTOMOC and AUTOUIC process GENERATED files.
+  Run "cmake --help-policy CMP0071" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  For compatibility, CMake is excluding the GENERATED source file(s):
+
+    "/home/fish/0my_catkin/ws_satellite/src/cmake-build-debug/satellite_ros/ui_mainwindow.h"
+    "/home/fish/0my_catkin/ws_satellite/src/cmake-build-debug/satellite_ros/include/map_editor/moc_mainwindow.cpp"
+    "/home/fish/0my_catkin/ws_satellite/src/cmake-build-debug/satellite_ros/include/map_editor/moc_subwidget.cpp"
+    "/home/fish/0my_catkin/ws_satellite/src/cmake-build-debug/satellite_ros/include/map_editor/moc_ui_mainwindow.cpp"
+    "/home/fish/0my_catkin/ws_satellite/src/cmake-build-debug/satellite_ros/include/map_editor/moc_calculate.cpp"
+    "/home/fish/0my_catkin/ws_satellite/src/cmake-build-debug/satellite_ros/include/map_editor/moc_config.cpp"
+    "/home/fish/0my_catkin/ws_satellite/src/cmake-build-debug/satellite_ros/include/map_editor/moc_global_value.cpp"
+    "/home/fish/0my_catkin/ws_satellite/src/cmake-build-debug/satellite_ros/include/map_editor/moc_gps_node.cpp"
+    "/home/fish/0my_catkin/ws_satellite/src/cmake-build-debug/satellite_ros/include/map_editor/moc_my_graphics_view.cpp"
+    "/home/fish/0my_catkin/ws_satellite/src/cmake-build-debug/satellite_ros/include/map_editor/moc_my_thread.cpp"
+    "/home/fish/0my_catkin/ws_satellite/src/cmake-build-debug/satellite_ros/include/map_editor/moc_sMapEditor.cpp"
+    "/home/fish/0my_catkin/ws_satellite/src/cmake-build-debug/satellite_ros/include/map_editor/moc_topo_map.cpp"
+
+  from processing by AUTOMOC and AUTOUIC.  If any of the files should be
+  processed, set CMP0071 to NEW.  If any of the files should not be
+  processed, explicitly exclude them by setting the source file property
+  SKIP_AUTOGEN:
+
+    set_property(SOURCE file.h PROPERTY SKIP_AUTOGEN ON)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/fish/0my_catkin/ws_satellite/src/cmake-build-debug

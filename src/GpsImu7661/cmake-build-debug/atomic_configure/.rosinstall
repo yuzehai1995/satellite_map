@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/fish/perception_code/0/satellite_map/ws_satellite/src/GpsImu7661/cmake-build-debug/devel/setup.sh

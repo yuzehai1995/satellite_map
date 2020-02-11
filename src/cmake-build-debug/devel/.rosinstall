@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/fish/0my_catkin/ws_satellite/src/cmake-build-debug/devel/setup.sh

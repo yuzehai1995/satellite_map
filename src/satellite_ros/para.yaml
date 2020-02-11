@@ -1,0 +1,17 @@
+%YAML:1.0
+
+%地球赤道半径
+R: 6371393
+PI: 3.141592654
+txtFile: /home/fish/0my_catkin/ws_satellite/src/satellite_ros/map.txt
+newTxtFile: /home/fish/0my_catkin/ws_satellite/src/satellite_ros/newMap.txt
+src_map_dir: /home/fish/0my_catkin/ws_satellite/src/satellite_ros/src.png
+p1_lng: 117.12132316
+p1_lat: 31.85239609
+p1_u: 510
+p1_v: 52
+p2_lng: 117.12437026
+p2_lat: 31.85123952
+p2_u: 808
+p2_v: 171
+

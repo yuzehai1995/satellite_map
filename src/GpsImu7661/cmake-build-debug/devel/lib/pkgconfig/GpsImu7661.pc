@@ -1,0 +1,8 @@
+prefix=/home/fish/perception_code/0/satellite_map/ws_satellite/src/GpsImu7661/cmake-build-debug/devel
+
+Name: GpsImu7661
+Description: Description of GpsImu7661
+Version: 0.0.0
+Cflags: -I/home/fish/perception_code/0/satellite_map/ws_satellite/src/GpsImu7661/cmake-build-debug/devel/include
+Libs: -L/home/fish/perception_code/0/satellite_map/ws_satellite/src/GpsImu7661/cmake-build-debug/devel/lib 
+Requires: roscpp rospy std_msgs message_runtime
