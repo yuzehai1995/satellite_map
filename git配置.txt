@@ -1,0 +1,43 @@
+1.安装：
+sudo  apt-get install git
+git --version
+
+2.创建项目的SSH Key:
+ssh-keygen -t rsa -C "youremail@example.com"
+(回车两次)
+
+3.复制公钥
+cd home/fish/.ssh/
+sudo gedit id_rsa.pub
+复制其中的内容到github中的setting->SS Keys-> New SSH Key-> add key
+
+4.配置用户名与邮箱
+git config --global user.name "yourusername"（github上注册的用户名）
+git config --global user.email "youremail@example.com"（GitHub上注册时的邮箱）
+
+
+//××××××××××××××××××××××××//
+5.使用git将本地文件push到GitHub远程仓库
+1)进入你要进行同步的目录
+2)初始化版本库
+    git init
+3)将本地仓库与github仓库关联
+    git remote add origin https://github.com/yuzehai1995/satellite_map.git
+4）获取远程库与本地同步（可省略）
+    git pull --rebase origin master
+5）添加文件夹或文件到暂存区
+git add map.txt(yourfile)
+6）暂存区提交到仓库区
+git commit -m "my commit"（引号内为本次编辑的注释）
+7）仓库区推送到远程仓库github
+git push origin master
+
+
+
+//×××××××××××××××××//
+6.取回线上内容并和本地文件合并
+ git pull origin master    //fetch and merge //取回线上内容并和本地内容合并
+
+
+
+
